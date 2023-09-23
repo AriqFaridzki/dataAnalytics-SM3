@@ -13,9 +13,9 @@ Big data memiliki karakteristik yaitu :
     * banyaknya data yang dibuat dengan cepat
 ### 3. Variety
     * banyaknya ragam data seperti tipe data, gambar, audio
-### 4. Variability
+### 4. Variability (keakuratan)
     * banyaknya data yang berubah berubah secara konstan
-### 5. Value
+### 5. Value (nilainya)
     * big data memiliki informasi yang berharga yang dikarenakan banyaknya variasi data yang didapatkan
 
 ## Target
@@ -24,24 +24,22 @@ Data Analytics lifecycle
 Metode analisa klasifikasi
 Metode analisa Prediksi
 
+tujuan : menganalisa pola menggunakan komputer
+
 ### Facts
 Data : suatu fakta yang terekam
 Data -> Information -> Knowledge -> Decision
+
+
+ 
 ### Pertanyaan
 
-1. Data social media (youtube)
-    * Judul Video
-    * Views Count
-    * tanggal upload
-    * nama channel
-    * gambar thumbnail
-    * deskripsi video
-    * jumlah like
-    * jumlah subscribers
-    * gambar profil
-    * komentar
-    * video
-    * link video
-    * durasi video
-2. Data di sensor (IoT)
-3. Kampus
+tipe tipe analisa
+big data analytics
+Arsitektur big data
+    data storage (batch processiong)
+    real time ingestistion (stream Procession)
+
+repository dataset : kaggle.com, 
+raw data ? data mentah
+studi kasus : 
