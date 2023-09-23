@@ -1,11 +1,11 @@
 # Big Data Analytics
 
-suaut teknik yang memproses data yang berjumlah banyak dan bermacam macam.
+suatu teknik untuk memproses data yang berjumlah banyak dan bermacam macam.
 
-dengan ini bisa mengatur strategi bisnis kedepannya. -- [IBM][1]
+dengan ini bisa menganalisa strategi bisnis kedepannya. -- [IBM](https://www.ibm.com/analytics/big-data-analytics)
 
 ## apa yang membuat data itu besar?
-Big data memiliki 5 karakteristik yaitu
+Big data memiliki karakteristik yaitu :
 
 ### 1. Volume
     * dimaksudkan data yang terlalu banyak yang membuat melebihi batas hardware / infrastruktur
@@ -18,5 +18,30 @@ Big data memiliki 5 karakteristik yaitu
 ### 5. Value
     * big data memiliki informasi yang berharga yang dikarenakan banyaknya variasi data yang didapatkan
 
+## Target
+Pengantar Data Analytics
+Data Analytics lifecycle
+Metode analisa klasifikasi
+Metode analisa Prediksi
 
-[1](https://www.ibm.com/analytics/big-data-analytics)
+### Facts
+Data : suatu fakta yang terekam
+Data -> Information -> Knowledge -> Decision
+### Pertanyaan
+
+1. Data social media (youtube)
+    * Judul Video
+    * Views Count
+    * tanggal upload
+    * nama channel
+    * gambar thumbnail
+    * deskripsi video
+    * jumlah like
+    * jumlah subscribers
+    * gambar profil
+    * komentar
+    * video
+    * link video
+    * durasi video
+2. Data di sensor (IoT)
+3. Kampus
