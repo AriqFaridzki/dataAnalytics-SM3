@@ -65,3 +65,33 @@ b. cari stack teknologi yang cocok
 publish subsribe model?
 
 
+cara mengadopsi Big data adalah menggunakan arsitektur Sistem terdistribusi
+
+STudy Kasus :
+E- Commerece
+SIRCLO : banyak data tapi ndak tau cara prosesnya
+ Data  milik  SIRCLO  ini terdapat  berbagai  macam,  mulai  dari  data  milik sales,  marketing,  support,  traffic  website,  toko,
+
+
+Apache Drill is an open source distributed SQL query engine that delivers fast and secure, self-service business information SQL analytics at scale.
+
+masalah : sulit untuk membaca data tersebut karenaketerbatasan dari infrastruktur  miliknya.  Data  milik  SIRCLO  ini terdapat  berbagai  macam,  mulai  dari  data  milik sales,  marketing,  support,  traffic  website,  toko, dll.
+
+setiap toko SIRCLO memakai database MYsql dan banyak tapi susah untuk membacanya langsung belum dan format yang berbeda JSON, MYSQL, CSV jadi dibuuthkan app juga
+
+Tech Stack :
+1. Apache Drill ( distributed SQL query engine )
+2. python
+3. Rclone ( buat transfer data antar subsistem )
+4. ZooKeeper ( open-source coordination service for distributed applications. orchestra )?
+5. Google Drive
+6. S3
+7. HDFS
+
+Permasalahan : banyak nya jenis data yang di generate oleh SIRCLO dari macam variasi data dan formatnya jadi ->
+
+1.Data didapatkan dan diubah ke format yang mampu diproses oleh Apache Drill.
+2.Data mampu dikirim dari sumber data ke HDFS
+3.Apache Drill mampu melakukan query dengan data SIRCLO yang tersimpan di HDFS
+
+jawaban : berhasil mengubah arsitektur dengan teknologi
